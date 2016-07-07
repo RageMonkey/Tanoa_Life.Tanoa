@@ -45,7 +45,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Check the website for the current rules and punishments", 
 				"
-				http://reignofterrorclan.enjin.com/forum/m/17518766/viewthread/11327612-altis-life-rules<br/><br/>
+				rules.rotgaming.net<br/><br/>
 				"
 		]
 	];

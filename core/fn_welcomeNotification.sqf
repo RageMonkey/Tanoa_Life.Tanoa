@@ -6,11 +6,11 @@
 */
 format["Welcome %1 !",profileName] hintC
 [
-	"Welcome to the RoT Gaming Altis Life server!",
+	"Welcome to the RoT Gaming Tanoa Life server!",
 	"Please read our server rules at RULES.ROTGAMING.NET",
 	"Join our TeamsSpeak on TS.ROTGAMING.NET (mandatory for Cops)",
 	"[Left Windows] Key allows you to interact with Vehicles & other Players (Configure->Controls->Custom 'Use Action 10' to change)",
-	"'Y' to open your Altis Life Inventory/Menu",
+	"'Y' to open your Tanoa Life Inventory/Menu",
 	"Shift 'p' to toggle Volume to 10%",
 	"'L' to use Radar Gun (Tazer) or whilst in Vehicle (cop only)",
 	"Shift 'r' to restrain a player",

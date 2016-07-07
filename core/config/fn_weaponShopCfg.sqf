@@ -27,7 +27,7 @@ switch(_shop) do
 			case (playerSide != west): {"You are not a cop!"};
 			default
 			{
-				["Altis Cop Shop",
+				["Tanoa Cop Shop",
 					[
 						["arifle_sdar_F","Taser Rifle",20000],
 						["hgun_P07_snds_F","Stun Pistol",2000],
@@ -161,7 +161,7 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 4): {"You are not a Sergeant!"};
 			default
 			{
-				["Altis Sergeant Shop",
+				["Tanoa Sergeant Shop",
 					[
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MX_SW_Black_F",nil,80000],
@@ -203,7 +203,7 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 5): {"You are not at Senior Sergeant!"};
 			default
 			{
-				["Altis Senior Sergeant Shop",
+				["Tanoa Senior Sergeant Shop",
 					[
 						["hgun_ACPC2_F",nil,17500],
 						["srifle_GM6_F",nil,150000],
@@ -248,7 +248,7 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 6): {"You are not at Captain!"};
 			default
 			{
-				["Altis Captain Shop",
+				["Tanoa Captain Shop",
 					[
 						["hgun_ACPC2_F",nil,17500],
 						["srifle_GM6_F",nil,150000],
@@ -698,7 +698,7 @@ switch(_shop) do
 	
 	case "genstore":
 	{
-		["Altis General Store",
+		["Tanoa General Store",
 			[
 				["Binocular",nil,150],
 				["ItemGPS",nil,100],
