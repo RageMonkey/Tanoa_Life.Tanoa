@@ -17,10 +17,12 @@ switch (_side) do
 {
 	case west:
 	{
+	    if ("cop_spawn_cmd" IN life_spawn_points) then {_return pushBack ["cop_spawn_cmd","Police Command","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];};
 		if ("cop_spawn_1" IN life_spawn_points) then {_return pushBack ["cop_spawn_1","GeorgeTown HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
 		if ("cop_spawn_2" IN life_spawn_points) then {_return pushBack ["cop_spawn_2","LinjnHaven Police HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
 		if ("cop_spawn_3" IN life_spawn_points) then {_return pushBack ["cop_spawn_3","Air HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"];};
-		//if ("cop_spawn_4" IN life_spawn_points) then {_return pushBack ["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];};
+		if ("cop_spawn_4" IN life_spawn_points) then {_return pushBack ["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];};
+		if ("cop_spawn_5" IN life_spawn_points) then {_return pushBack ["cop_spawn_5","Empty","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];};
 	};
 	
 	case civilian:
@@ -28,6 +30,7 @@ switch (_side) do
 		if ("civ_spawn_1" IN life_spawn_points) then {_return pushBack ["civ_spawn_1","GeorgeTown","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
 		if ("civ_spawn_2" IN life_spawn_points) then {_return pushBack ["civ_spawn_2","Tuvanaka","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
 		if ("civ_spawn_3" IN life_spawn_points) then {_return pushBack ["civ_spawn_3","LinjnHaven","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
+		if ("civ_spawn_4" IN life_spawn_points) then {_return pushBack ["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];};
 		
 			
 		if (license_civ_rebel) then
