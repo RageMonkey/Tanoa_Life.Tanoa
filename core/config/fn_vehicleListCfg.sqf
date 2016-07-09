@@ -72,6 +72,7 @@ switch (_shop) do
 	{
 		_return = 
 		[
+			["C_Offroad_02_unarmed_F",50000],
 			["B_Quadbike_01_F",2500],
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
@@ -123,6 +124,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",100000];
+			_return pushBack ["O_T_LSV_02_unarmed_F",75000];
 		};
 		
 		//Level 3 (Leading Senior Constable)
@@ -132,6 +134,10 @@ switch (_shop) do
 		};
 		
 		//Level 4 (Sergeant)
+		if(__GETC__(life_coplevel) > 2) then
+		{
+			_return pushBack ["O_T_LSV_02_armed_F",125000];
+		};
 		
 		//Level 5 (Senior Sergeant)
 		
@@ -140,6 +146,8 @@ switch (_shop) do
 		{
 			_return pushBack ["B_MRAP_01_hmg_F",750000];
 		};
+		
+		
 		
 		
 	};
@@ -175,7 +183,10 @@ switch (_shop) do
 		};
 		
 		//Level 3 (Leading Senior Constable)
-
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_return pushBack ["O_T_VTOL_02_infantry_F",400000];
+		};
 		
 		//Level 4 (Sergeant)
 		if(__GETC__(life_coplevel) > 3) then
@@ -215,7 +226,11 @@ switch (_shop) do
 		};
 		
 		//Level 3 (Leading Senior Constable)
-
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_return pushBack ["O_T_VTOL_02_infantry_grey_F",400000];
+			_return pushBack ["O_T_VTOL_02_vehicle_grey_F",400000];
+		};
 		
 		//Level 4 (Sergeant)
 		if(__GETC__(life_coplevel) > 3) then
@@ -241,9 +256,11 @@ switch (_shop) do
 	{
 		_return =
 		[
+			["C_Scoooter_Transport_01_F",25000],
 			["C_Rubberboat",5000],
 			["C_Boat_Civil_01_F",22000],
-			["B_SDV_01_F",120000]
+			["B_SDV_01_F",120000],
+			["C_Boat_Transport_02_F"]
 		];
 	};
 
@@ -252,6 +269,7 @@ switch (_shop) do
 		_return pushBack ["B_Boat_Transport_01_F",3000];
 		_return pushBack ["C_Boat_Civil_01_police_F",20000];
 		_return pushBack ["B_SDV_01_F",100000];
+		_return pushBack ["I_C_Boat_Transport_02_F"];
 		
 		//Level 4 (Sergeant)
 		if(__GETC__(life_coplevel) > 3) then
@@ -262,6 +280,32 @@ switch (_shop) do
 	
 	case "donator_1":
 	{
+		//_return pushBack ["B_T_VTOL_01_armed_F",1500000];
+		//_return pushBack ["B_T_UAV_03_F",1000];
+		//_return pushBack ["O_T_UAV_04_CAS_F",1000];
+		
+		
+		if(__GETC__(life_member) > 2) then
+		{
+			_return pushBack ["C_Offroad_02_unarmed_F",50000];
+			_return pushBack ["B_T_LSV_01_unarmed_F",75000];
+			_return pushBack ["B_T_LSV_01_armed_F",500000];
+			_return pushBack ["C_Plane_Civil_01_F",1500000];
+			_return pushBack ["C_Plane_Civil_01_racing_F",1500000];
+			_return pushBack ["I_C_Plane_Civil_01_F",1500000];
+			_return pushBack ["B_T_VTOL_01_vehicle_F",1500000];
+			_return pushBack ["B_T_VTOL_01_infantry_F",1500000];
+			_return pushBack ["O_MRAP_02_F",150000];					//Ifrit
+			_return pushBack ["C_Hatchback_01_sport_F",100000];
+			_return pushBack ["I_Heli_Transport_02_F",1000000];			//Mohawk
+			_return pushBack ["O_Heli_Transport_04_bench_F",1000000];	//Taru Bench
+			_return pushBack ["O_Heli_Transport_04_F",1200000];			//Taru Lift
+			_return pushBack ["C_Heli_Light_01_civil_F",375000];		//M900
+			
+		};
+		
+		
+		
 		if(__GETC__(life_member) > 0) then
 		{
 			//_return pushBack ["B_Quadbike_01_F",1000];
@@ -278,15 +322,7 @@ switch (_shop) do
 			_return pushBack ["O_Heli_Light_02_unarmed_F",600000];
 		};
 		
-		if(__GETC__(life_member) > 2) then
-		{
-			_return pushBack ["O_MRAP_02_F",150000];					//Ifrit
-			_return pushBack ["C_Hatchback_01_sport_F",100000];
-			_return pushBack ["I_Heli_Transport_02_F",1000000];			//Mohawk
-			_return pushBack ["O_Heli_Transport_04_bench_F",1000000];	//Taru Bench
-			_return pushBack ["O_Heli_Transport_04_F",1200000];			//Taru Lift
-			_return pushBack ["C_Heli_Light_01_civil_F",375000];		//M900
-		};
+
 	};
 };
 

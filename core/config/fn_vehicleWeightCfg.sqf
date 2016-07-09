@@ -56,5 +56,26 @@ switch (_className) do
 	case "Land_Wreck_Traw_F": {10000000};
 	case "Land_Wreck_Traw2_F": {10000000};
 	case "B_SDV_01_F": {300};						//Sub
+	
+	
+	//Tanoa
+	case "C_Offroad_02_unarmed_F": {64};
+	case "B_T_LSV_01_armed_F": {64};
+	case "B_T_LSV_01_unarmed_F": {64};
+	case "O_T_LSV_02_armed_F": {64};
+	case "O_T_LSV_02_unarmed_F": {64};
+	
+	case "C_Plane_Civil_01_F": {300};
+
+	case "B_T_VTOL_01_armed_F": {300};
+	case "B_T_VTOL_01_infantry_F": {300};
+	case "O_T_VTOL_02_infantry_F": {300};
+	
+	case "I_C_Boat_Transport_02_F": {320};
+	case "C_Scoooter_Transport_01_F": {64};
+	
+	case "O_T_UAV_04_CAS_F": {300};
+	case "B_T_UAV_03_F": {300};
+	
 	default {-1};
 };

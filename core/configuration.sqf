@@ -41,6 +41,7 @@ life_handcuffkeys = ObjNull;
 life_enslaved = false;
 life_lumberjack = false;
 life_treelop = 0;
+life_container_activeObj = ObjNull;
 //NLR Timer
 life_nlrtimer_stop = false;
 life_nlrtimer_running = false;

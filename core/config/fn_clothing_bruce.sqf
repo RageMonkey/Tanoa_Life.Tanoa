@@ -18,6 +18,16 @@ switch (_filter) do
 	case 0:
 	{
 		[
+		["U_C_man_sport_1_F","Green Surfer",2000]
+		["U_C_man_sport_2_F","Blue Surfer",2000],
+		["U_C_man_sport_3_F","Red Surfer",2000],
+		["U_C_Man_casual_1_F","Poloshirt Blue & Cream",2000],
+		["U_C_Man_casual_2_F","Poloshirt Blue & White",2000],
+		["U_C_Man_casual_3_F","Poloshirt Green & White",2000],
+		["U_C_Man_casual_4_F","Blue T & Grey Pants",2000],
+		["U_C_Man_casual_5_F","Yellow T & Blue Pants",2000],
+		["U_C_Man_casual_6_F","Orange T & Green Pants",2000],
+		
 		["U_C_Poloshirt_blue","Poloshirt Blue",250],
 		["U_C_Poloshirt_burgundy","Poloshirt Burgundy",275],
 		["U_C_Poloshirt_redwhite","Poloshirt Red/White",150],

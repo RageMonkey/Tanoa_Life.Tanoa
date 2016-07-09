@@ -121,6 +121,10 @@ switch (_filter) do
 		};
 		
 		//Level 3 (Leading Senior Constable)
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			//_ret pushBack ["V_TacVest_gen_F",nil,2000];
+		};
 		
 		//Level 4 (Sergeant)
 		if(__GETC__(life_coplevel) > 3) then
