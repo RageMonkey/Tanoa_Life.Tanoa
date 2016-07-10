@@ -58,7 +58,7 @@ switch (_side) do
 	
 	case independent: {
 		if ("medic_spawn_2" IN life_spawn_points) then {_return pushBack ["medic_spawn_2","Athira Regional","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];};
-		if ("medic_spawn_1" IN life_spawn_points) then {_return pushBack ["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];};
+		if ("medic_spawn_1" IN life_spawn_points) then {_return pushBack ["medic_spawn_1","GeorgeTown Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];};
 		if ("medic_spawn_3" IN life_spawn_points) then {_return pushBack ["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"];};
 	};
 };
