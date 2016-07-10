@@ -321,6 +321,40 @@ switch (_vehicle) do
 			["textures\med\vehicles\EMS_M900.jpg","med"]
 		];
 	};
+	
+	case "O_T_VTOL_02_infantry_grey_F":
+	{
+		_ret =
+		[
+			["textures\cop\vehicles\ghosthawk_swat_front.jpg","cop","textures\cop\vehicles\ghosthawk_swat_front.jpg","textures\cop\vehicles\ghosthawk_swat_front.jpg","textures\cop\vehicles\ghosthawk_swat_front.jpg"]
+		];
+	};
+	
+	case "O_T_VTOL_02_vehicle_grey_F":
+	{
+		_ret =
+		[
+			["textures\cop\vehicles\ghosthawk_swat_front.jpg","cop","textures\cop\vehicles\ghosthawk_swat_front.jpg","textures\cop\vehicles\ghosthawk_swat_front.jpg","textures\cop\vehicles\ghosthawk_swat_front.jpg"]
+		];
+	};
+	
+	case "O_T_LSV_02_unarmed_F":
+	{
+		_ret =
+		[
+			["#(argb,8,8,3)color(0.5,0.5,0.8,0.02)","cop"]
+		];
+	};
+	
+	case "O_T_LSV_02_armed_F":
+	{
+		_ret =
+		[
+			["#(argb,8,8,3)color(0.5,0.5,0.8,0.02)","cop"]
+		];
+	};
+	
+	
 };
 
 _ret;

@@ -69,7 +69,9 @@ switch (_className) do
 
 	case "B_T_VTOL_01_armed_F": {300};
 	case "B_T_VTOL_01_infantry_F": {300};
-	case "O_T_VTOL_02_infantry_F": {300};
+	case "O_T_VTOL_02_infantry_grey_F": {300};
+	case "O_T_VTOL_02_vehicle_grey_F": {300};
+			
 	
 	case "I_C_Boat_Transport_02_F": {320};
 	case "C_Scoooter_Transport_01_F": {64};

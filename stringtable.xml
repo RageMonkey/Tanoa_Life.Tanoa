@@ -2986,236 +2986,129 @@
 	<Package name="Housing_Strings">
     <Key ID="STR_House_ContainerError">
       <Original>Error saving container, couldn't locate house?</Original>
-      <German>Fehler beim Speichern der Container, es konnte kein Haus gefunden werden?</German>
-      <French>Erreur lors de la sauvegarde des conteneur, impossible de localiser la maison.</French>
-      <Italian>Errore nel salvataggio del contenitore, impossibile trovare la casa?</Italian>
-      <Portuguese>Erro ao salvar a caixa, não foi possível encontrar a casa.</Portuguese>
-      <Polish>Błąd w zapisywaniu pojemnika, nie można zlokalizować domu.</Polish>
+	  <English>Error saving container, couldn't locate house?</English>
+
     </Key>
     <Key ID="STR_House_ContainerDeny">
       <Original>You are not allowed to access this storage container without the owner opening it.</Original>
-      <German>Du bist nicht berechtigt, auf diesen Container zuzugreifen, ohne dass der Besitzer ihn aufgeschlossen hat.</German>
-      <French>Vous n'êtes pas autorisé à accéder à ce conteneur de stockage sans que le propriétaire ne l'ouvre.</French>
-      <Italian>Non sei autorizzato ad accedere a questo contentitore senza il permesso del proprietario.</Italian>
-      <Portuguese>Você so pode acessar a caixa se o dono deixar ela aberta.</Portuguese>
-      <Polish>Nie masz dostępu do pojemnika dopóki właściciel go nie otworzy.</Polish>
+	  <English>You are not allowed to access this storage container without the owner opening it.</English>
+
      </Key>
     <Key ID="STR_House_Container_House_Near">
       <Original>There are no houses near you.</Original>
-      <French>Il n'y a aucune maison près de vous.</French>
+	  <English>There are no houses near you.</English>
     </Key>
     <Key ID="STR_House_Container_House_Near_Owner">
       <Original>You are not the owner of the house.</Original>
-      <French>Vous n'êtes pas le propriétaire de la maison.</French>
+	  <English>You are not the owner of the house.</English>
     </Key>
     <Key ID="STR_House_Door_Unlock">
       <Original>You have unlocked the door.</Original>
-      <German>Du hast die Tür aufgeschlossen.</German>
-      <French>Vous avez ouvert la porte.</French>
-      <Italian>Hai sbloccato la porta.</Italian>
-      <Portuguese>Você destrancou a porta.</Portuguese>
-      <Polish>Odblokowałeś drzwi.</Polish>
+	  <English>You have unlocked the door.</English>
     </Key>
     <Key ID="STR_House_Door_Lock">
       <Original>You have locked the door.</Original>
-      <German>Du hast die Tür abgeschlossen.</German>
-      <French>Vous avez verrouillé la porte.</French>
-      <Italian>Hai bloccato la porta.</Italian>
-      <Portuguese>Você trancou a porta.</Portuguese>
-      <Polish>Zablokowałeś drzwi.</Polish>
+	  <English>You have locked the door.</English>
     </Key>
     <Key ID="STR_House_Door_NotNear">
       <Original>You are not near a door!</Original>
-      <German>Keine Tür in der Nähe!</German>
-      <French>Vous n'êtes pas près d'une porte!</French>
-      <Italian>Non sei vicino ad una porta!</Italian>
-      <Portuguese>Você não está perto de uma porta!</Portuguese>
-      <Polish>Nie jesteś przy drzwiach!</Polish>
+	  <English>You are not near a door!</English>
     </Key>
     <Key ID="STR_House_Sell_Process">
       <Original>This house was recently sold and is still processing in the database.</Original>
-      <German>Dieses Haus wurde vor Kurzem verkauft.</German>
-      <French>Cette maison a été récemment vendu et est en cours de traitement dans la base de données.</French>
-      <Italian>Questa casa è stata venduta di recente ed il database la sta ancora processando.</Italian>
-      <Portuguese>Essa casa já foi vendida, estamos processando a ordem de compra</Portuguese>
-      <Polish>Ten dom został ostatnio sprzedany i trwa jego przetwarzanie w bazie danych.</Polish>
+	  <English>This house was recently sold and is still processing in the database.</English>
     </Key>
     <Key ID="STR_House_License">
       <Original>You do not have a home owners license!</Original>
-      <German>Du hast keine Eigentumsurkunde!</German>
-      <French>Vous n'avez pas de permis de propriétaires de maison!</French>
-      <Italian>Non hai la licenza per il possesso delle case!</Italian>
-      <Portuguese>Você não tem um Registro Civil para comprar casas!</Portuguese>
-      <Polish>Nie masz licencji zarządcy nieruchomości!</Polish>
+	  <English>You do not have a home owners license!</English>
     </Key>
     <Key ID="STR_House_Max_House">
       <Original>You can only own %1 houses at a time.</Original>
-      <German>Du darfst nur %1 Häuser zugleich besitzen.</German>
-      <French>Vous ne pouvez posséder que %1 maisons à la fois.</French>
-      <Italian>Puoi possedere solo %1 case</Italian>
-      <Portuguese>Você só pode ter %1 casa(s)!</Portuguese>
-      <Polish>Możesz posiadać maksymalnie %1 domów.</Polish>
+	  <English>You can only own %1 houses at a time.</English>
     </Key>
     <Key ID="STR_House_NotEnough">
       <Original>You do not have enough money!</Original>
-      <German>Du hast nicht genug Geld!</German>
-      <French>Vous n'avez pas assez d'argent!</French>
-      <Italian>Non hai fondi a sufficienza!</Italian>
-      <Portuguese>Você não tem todo esse dinheiro!</Portuguese>
-      <Polish>Nie masz tyle pieniędzy!</Polish>
+	  <English>You do not have enough money!</English>
     </Key>
     <Key ID="STR_House_BuyMSG">
       <Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
-      <German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
-      <French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
-      <Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
-      <Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
-      <Polish>Ten dom jest dostępny za &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Ma %2 miejsca na pojemniki do przechowywania wyposażenia</Polish>
+	  <English>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</English>
     </Key>
     <Key ID="STR_House_Purchase">
       <Original>Purchase House</Original>
-      <German>Haus kaufen</German>
-      <French>Acheter la Maison</French>
-      <Italian>Compra Casa</Italian>
-      <Portuguese>Comprar Casa</Portuguese>
-      <Polish>Kup dom!</Polish>
+	  <English>Purchase House</English>
     </Key>
     <Key ID="STR_House_Raid_NoOwner">
       <Original>This house doesn't belong to anyone.</Original>
-      <German>Dieses Haus gehört niemandem.</German>
-      <French>Cette maison n'appartient à personne.</French>
-      <Italian>Questa casa non appartiene a nessuno.</Italian>
-      <Portuguese>Essa casa não tem dono.</Portuguese>
-      <Polish>Ten dom nie ma właściciela.</Polish>
+	  <English>This house doesn't belong to anyone.</English>
     </Key>
     <Key ID="STR_House_Raid_OwnerOff">
       <Original>This person is not online there for you cannot raid their house!</Original>
-      <German>Der Hausbesitzer ist nicht online, daher kannst du sein Haus nicht stürmen!</German>
-      <French>Cette personne n'est pas en ligne, vous ne pouvez pas perquisitionner cette maison!</French>
-      <Italian>Questa persona non è online quindi non puoi perquisire la sua casa!</Italian>
-      <Portuguese>O dono da casa não está online, você não pode vasculhar a casa!</Portuguese>
-      <Polish>Osoba nie jest na serwerze, nie możesz przeszukać domu.</Polish>
+	  <English>This person is not online there for you cannot raid their house!</English>
     </Key>
     <Key ID="STR_House_Raid_DoorUnlocked">
       <Original>The door is already unlocked!</Original>
-      <German>Die Tür ist bereits offen!</German>
-      <French>La porte est déjà débloqué!</French>
-      <Italian>La porta è già sbloccata!</Italian>
-      <Portuguese>A porta está destrancada!</Portuguese>
-      <Polish>Drzwi są już odblokowane!</Polish>
+	  <English>The door is already unlocked!</English>
     </Key>
     <Key ID="STR_House_FedDoor_Locked">
       <Original>The door is already locked!</Original>
-      <German>Die Tür ist bereits verriegelt!</German>
-      <Polish>Drzwi są już zablokowane!</Polish>
+	  <English>The door is already locked!</English>
     </Key>
     <Key ID="STR_House_Raid_Progress">
       <Original>Breaking lock on door</Original>
-      <German>Türschloss wird aufgebrochen</German>
-      <French>En train de casser la sérrure</French>
-      <Italian>Sbloccando la porta</Italian>
-      <Portuguese>Quebrando a fechadura da porta</Portuguese>
-      <Polish>Wyłamuje zablokowane drzwi...</Polish>
+	  <English>Breaking lock on door</English>
     </Key>
     <Key ID="STR_House_Raid_NOTF">
       <Original>%1 your house is being raided by the cops!</Original>
-      <German>%1 dein Haus wird von der Polizei durchsucht!</German>
-      <French>%1 votre maison est perquisitionnée par les flics!</French>
-      <Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
-      <Portuguese>%1 Sua casa está sendo vasculhada pela Policia!</Portuguese>
-      <Polish>%1 twój dom jest kontrolowany przez policję!</Polish>
+	  <English>%1 your house is being raided by the cops!</English>
     </Key>
     <Key ID="STR_House_Raid_Owner">
       <Original>House Owner</Original>
-      <German>Hauseigentümer</German>
-      <French>Propriétaire</French>
-      <Italian>Proprietario Casa</Italian>
-      <Portuguese>Proprietário</Portuguese>
-      <Polish>Właściciel domu</Polish>
+	  <English>House Owner</English>
     </Key>
     <Key ID="STR_House_Raid_Nothing">
       <Original>There is nothing in this house.</Original>
-      <German>Es gibt nichts in diesem Haus.</German>
-      <French>Il n'y a rien dans cette maison</French>
-      <Italian>In questa casa non c'è nulla.</Italian>
-      <Portuguese>Essa casa está vazia.</Portuguese>
-      <Polish>Nie znaleziono niczego nielegalnego.</Polish>
+	  <English>There is nothing in this house.</English>
     </Key>
     <Key ID="STR_House_Raid_Searching">
       <Original>Searching House...</Original>
-      <German>Haus wird durchsucht...</German>
-      <French>Recherche Maison...</French>
-      <Italian>Perquisendo la Casa...</Italian>
-      <Portuguese>Vasculhando a casa...</Portuguese>
-      <Polish>Przeszukuję dom...</Polish>
+	  <English>Searching House...</English>
     </Key>
     <Key ID="STR_House_Raid_TooFar">
       <Original>You went too far away from the house!</Original>
-      <German>Du hast dich zu weit vom Haus entfernt!</German>
-      <French>Vous êtes parti trop loin de la maison!</French>
-      <Italian>Sei andato troppo distante dalla casa!</Italian>
-      <Portuguese>Você está muito distante da casa!</Portuguese>
-      <Polish>Jesteś za daleko od domu!</Polish>
+	  <English>You went too far away from the house!</English>
     </Key>
     <Key ID="STR_House_Raid_Successful">
       <Original>A house was raided and had $%1 worth of drugs / contraband.</Original>
-      <German>Ein Haus wurde durchsucht und es wurden Drogen / Schmuggelware im Wert von $% gefunden.</German>
-      <French>Une maison a été perquisitionné et a $%1 de drogue / contrebande.</French>
-      <Italian>Una casa è stata perquisita e sono stati trovati €%1 in materiali illegali.</Italian>
-      <Portuguese>A casa assaltada tem R$%1 em drogas ou contrabandos.</Portuguese>
-      <Polish>Podczas przeszukania domu znaleziono kontrabandę o wartości $%1.</Polish>
+	  <English>A house was raided and had $%1 worth of drugs / contraband.</English>
     </Key>
     <Key ID="STR_House_Raid_NoIllegal">
       <Original>Nothing illegal in this house.</Original>
-      <German>Nichts Illegales in diesem Haus.</German>
-      <French>Rien d'illégal dans cette maison</French>
-      <Italian>Questa casa non contiene nulla d'illegale.</Italian>
-      <Portuguese>Nada ilegal nessa casa.</Portuguese>
-      <Polish>Nie znaleziono niczego nielegalnego.</Polish>
+	  <English>Nothing illegal in this house.</English>
     </Key>
     <Key ID="STR_House_StorageUnlock">
       <Original>House storage unlocked</Original>
-      <German>Lagerplatz des Hauses geöffnet</German>
-      <French>Stockage de la maison déverrouillé</French>
-      <Italian>Contenitori della casa sbloccati</Italian>
-      <Portuguese>Armário da casa destrancado</Portuguese>
-      <Polish>Pojemnik odblokowany</Polish>
+	  <English>House storage unlocked</English>
     </Key>
     <Key ID="STR_House_StorageLock">
       <Original>House storage locked</Original>
-      <German>Lagerplatz des Hauses geschlossen</German>
-      <French>Stockage de Maison verrouillé</French>
-      <Italian>Contenitori della casa bloccati</Italian>
-      <Portuguese>Armário da casa trancado</Portuguese>
-      <Polish>Pojemnik zablokowany</Polish>
+	  <English>House storage locked</English>
     </Key>
     <Key ID="STR_House_LockingUp">
       <Original>Locking up house please wait...</Original>
-      <German>Haus wird abgeschlosen, bitte warten...</German>
-      <French>Fermeture de la maison veuiller patienter...</French>
-      <Italian>Bloccando la casa, attendere prego...</Italian>
-      <Portuguese>Trancando a casa, aguarde...</Portuguese>
-      <Polish>Blokuję zamykam dom proszę czekać...</Polish>
+	  <English>Locking up house please wait...</English>
     </Key>
     <Key ID="STR_House_LockedUp">
       <Original>House has been locked up.</Original>
-      <German>Haus wurde abgeschlossen.</German>
-      <Italian>La casa è stata bloccata.</Italian>
-      <Portuguese>Sua casa foi trancada!</Portuguese>
-      <Polish>Dom został zablokowany / zamknięty!</Polish>
+	  <English>House has been locked up.</English>
     </Key>
     <Key ID="STR_House_SellHouseMSG">
       <Original>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
-      <German>Bist Du sicher, dass du dein Haus verkaufen möchtest? Es wird für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt; verkauft</German>
-      <French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
-      <Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
-      <Portuguese>Você tem certeza que deseja vender a casa? O valor de venda é: &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;</Portuguese>
-      <Polish>Jesteś pewny że chcesz sprzedać dom za &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Polish>
+	  <English>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</English>
     </Key>
     <Key ID="STR_House_DeleteContainerMSG">
       <Original>Are you sure you want to remove it?</Original>
-      <French>Etes-vous sûr de vouloir delete le container?</French>
-      <Portuguese>Você tem certeza que quer remover isso?</Portuguese>
+	  <English>Are you sure you want to remove it?</English>
     </Key>
   </Package>
 	<Package name="Vehicle_Service">

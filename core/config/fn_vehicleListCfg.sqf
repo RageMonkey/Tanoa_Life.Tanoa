@@ -185,7 +185,8 @@ switch (_shop) do
 		//Level 3 (Leading Senior Constable)
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_return pushBack ["O_T_VTOL_02_infantry_F",400000];
+			_return pushBack ["O_T_VTOL_02_infantry_grey_F",400000];
+			_return pushBack ["O_T_VTOL_02_vehicle_grey_F",400000];
 		};
 		
 		//Level 4 (Sergeant)
