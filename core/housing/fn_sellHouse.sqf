@@ -48,5 +48,12 @@ if(_action) then {
 	_numOfDoors = getNumber(configFile >> "CfgVehicles" >> (typeOf _house) >> "numberOfDoors");
 	for "_i" from 1 to _numOfDoors do {
 		_house setVariable[format["bis_disabled_Door_%1",_i],0,true];
+		_containers = [getPosATL _house, ["Box_IND_Grenades_F","B_supplyCrate_F"], 9] call life_fnc_nearestObjects;
+		if (count _containers > 0) then {
+			{
+				_x getVariable ["Trunk",nil,true];
+				[[_x],"TON_fnc_sellHouseContainer",false,false] spawn life_fnc_MP;
+			} forEach _containers;
+		};
 	};
 };

@@ -291,8 +291,8 @@ switch (_shop) do
 			_return pushBack ["B_T_LSV_01_unarmed_F",75000];
 			_return pushBack ["B_T_LSV_01_armed_F",500000];
 			_return pushBack ["C_Plane_Civil_01_F",1500000];
-			_return pushBack ["C_Plane_Civil_01_racing_F",1500000];
-			_return pushBack ["I_C_Plane_Civil_01_F",1500000];
+			//_return pushBack ["C_Plane_Civil_01_racing_F",1500000];
+			//_return pushBack ["I_C_Plane_Civil_01_F",1500000];
 			_return pushBack ["B_T_VTOL_01_vehicle_F",1500000];
 			_return pushBack ["B_T_VTOL_01_infantry_F",1500000];
 			_return pushBack ["O_MRAP_02_F",150000];					//Ifrit

@@ -31,7 +31,7 @@ if(_action) then {
 	[[_uid,_house],"TON_fnc_addHouse",false,false] spawn life_fnc_MP;
 	_house setVariable["house_owner",[_uid,profileName],true];
 	_house setVariable["locked",true,true];
-	_house setVariable["Trunk",[[],0],true];
+	
 	_house setVariable["containers",[],true];
 	_house setVariable["uid",round(random 99999),true];
 	life_RoT_atm = life_RoT_atm - (_houseCfg select 0);

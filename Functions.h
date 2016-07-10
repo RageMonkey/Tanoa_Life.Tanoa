@@ -145,6 +145,10 @@ class Life_Client_Core
 		class lockupHouse {};
 		class copHouseOwner {};
 		class lockHouse {};
+		class garageRefund {};
+		class placeContainer {};
+		class PlayerInBuilding {};
+		class containerMenu {};
 	};
 	
 	class Config
@@ -448,6 +452,11 @@ class Life_Client_Core
 		class drinkbeer {};
 		class drinkmoonshine {};
 		class drinkwhiskey {};
+		class storageBoxBig {};
+		class storageBoxSmall {};
+		class placestorageBig {};
+		class placestorageSmall {};
+		class placedefinestorage {};
 	};
 	
 	class Dialog_Controls

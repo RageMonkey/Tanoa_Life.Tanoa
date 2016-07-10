@@ -48,6 +48,16 @@ if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 
 switch (_code) do
 {
+	if (life_container_active) then {
+	switch (_code) do {
+		//space key
+		case 57: {
+			[life_container_activeObj] spawn life_fnc_placedefinestorage;
+		};
+	};
+	true;
+	};
+
 	//Space key for Jumping
 	case 57:
 	{
