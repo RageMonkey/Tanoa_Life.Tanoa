@@ -103,7 +103,7 @@ switch (_shop) do
 	{
 		_return pushBack ["B_Quadbike_01_F",2500];
 		_return pushBack ["B_G_Offroad_01_F",15000];
-		_return pushBack ["O_MRAP_02_F",150000];
+		//_return pushBack ["O_MRAP_02_F",150000];		//ifrit
 		_return pushBack ["B_Heli_Light_01_F",325000];
 		
 		if(license_civ_rebel) then
@@ -130,7 +130,7 @@ switch (_shop) do
 		//Level 3 (Leading Senior Constable)
 		if(__GETC__(life_coplevel) > 2) then
 		{
-			_return pushBack ["B_MRAP_01_F",75000];
+			//_return pushBack ["B_MRAP_01_F",75000];
 		};
 		
 		//Level 4 (Sergeant)
@@ -146,9 +146,6 @@ switch (_shop) do
 		{
 			_return pushBack ["B_MRAP_01_hmg_F",750000];
 		};
-		
-		
-		
 		
 	};
 	
@@ -183,7 +180,7 @@ switch (_shop) do
 		};
 		
 		//Level 3 (Leading Senior Constable)
-		if(__GETC__(life_coplevel) > 1) then
+		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack ["O_T_VTOL_02_infantry_grey_F",400000];
 			_return pushBack ["O_T_VTOL_02_vehicle_grey_F",400000];
@@ -227,7 +224,7 @@ switch (_shop) do
 		};
 		
 		//Level 3 (Leading Senior Constable)
-		if(__GETC__(life_coplevel) > 1) then
+		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack ["O_T_VTOL_02_infantry_grey_F",400000];
 			_return pushBack ["O_T_VTOL_02_vehicle_grey_F",400000];
@@ -290,13 +287,13 @@ switch (_shop) do
 		{
 			_return pushBack ["C_Offroad_02_unarmed_F",50000];
 			_return pushBack ["B_T_LSV_01_unarmed_F",75000];
-			_return pushBack ["B_T_LSV_01_armed_F",500000];
+			_return pushBack ["B_T_LSV_01_armed_F",1200000];
 			_return pushBack ["C_Plane_Civil_01_F",1500000];
 			//_return pushBack ["C_Plane_Civil_01_racing_F",1500000];
 			//_return pushBack ["I_C_Plane_Civil_01_F",1500000];
 			_return pushBack ["B_T_VTOL_01_vehicle_F",1500000];
 			_return pushBack ["B_T_VTOL_01_infantry_F",1500000];
-			_return pushBack ["O_MRAP_02_F",150000];					//Ifrit
+			//_return pushBack ["O_MRAP_02_F",150000];					//Ifrit
 			_return pushBack ["C_Hatchback_01_sport_F",100000];
 			_return pushBack ["I_Heli_Transport_02_F",1000000];			//Mohawk
 			_return pushBack ["O_Heli_Transport_04_bench_F",1000000];	//Taru Bench

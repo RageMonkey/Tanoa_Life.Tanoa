@@ -18,7 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
-		["U_C_man_sport_1_F","Green Surfer",2000]
+		["U_C_man_sport_1_F","Green Surfer",2000],
 		["U_C_man_sport_2_F","Blue Surfer",2000],
 		["U_C_man_sport_3_F","Red Surfer",2000],
 		["U_C_Man_casual_1_F","Poloshirt Blue & Cream",2000],
